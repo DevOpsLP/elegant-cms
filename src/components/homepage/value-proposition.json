@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_homepage_value_propositions",
+  "info": {
+    "displayName": "ValueProposition",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_title": {
+      "type": "string",
+      "required": true
+    },
+    "header1": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "text",
+      "required": true
+    },
+    "svg1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header2": {
+      "type": "string",
+      "required": true
+    },
+    "description2": {
+      "type": "text",
+      "required": true
+    },
+    "svg2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header3": {
+      "type": "string",
+      "required": true
+    },
+    "description3": {
+      "type": "text",
+      "required": true
+    },
+    "svg3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header4": {
+      "type": "string",
+      "required": true
+    },
+    "description4": {
+      "type": "text",
+      "required": true
+    },
+    "svg4": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header1": {
+      "type": "string",
+      "required": true
+    },
+    "header2": {
+      "type": "string",
+      "required": true
+    },
+    "header3": {
+      "type": "string",
+      "required": true
+    },
+    "sub_header": {
+      "type": "string",
+      "required": true
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

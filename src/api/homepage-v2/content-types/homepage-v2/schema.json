@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_v2s",
+  "info": {
+    "singularName": "homepage-v2",
+    "pluralName": "homepage-v2s",
+    "displayName": "Homepage-v2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-v2.hero",
+      "required": true
+    },
+    "ValueProposition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.value-proposition"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage-v2.cta",
+      "required": true
+    },
+    "TabItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.tab-item"
+    },
+    "Products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.products"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage-v2.services-v2"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_v2_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_title": {
+      "type": "text"
+    }
+  }
+}

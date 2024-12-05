@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_homepage_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "header1": {
+      "type": "string",
+      "required": true
+    },
+    "sub_header1": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "text",
+      "required": true
+    },
+    "header2": {
+      "type": "string",
+      "required": true
+    },
+    "sub_header2": {
+      "type": "string",
+      "required": true
+    },
+    "description2": {
+      "type": "text",
+      "required": true
+    },
+    "image1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

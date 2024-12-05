@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_tab_items",
+  "info": {
+    "displayName": "TabItem",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "tab": {
+      "type": "enumeration",
+      "enum": [
+        "Industries",
+        "Use Cases"
+      ],
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
